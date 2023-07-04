@@ -183,7 +183,7 @@ productList.push({
   name: "Popis",
   price: 30,
   image: "logos/popis(1).jpg",
-  description: "salchicha cubiera con tortilla freida en aceite",
+  description: "salchicha cubierta con tortilla freida en aceite",
 });
 // productList.push({
 //   name: "¡CONTÁCTANOS!",
