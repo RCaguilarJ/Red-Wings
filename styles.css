@@ -9,7 +9,7 @@
   --lg: 18px;
 }
 body {
-  background-color: #000000;
+  background-color: red;
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }
@@ -19,10 +19,11 @@ body {
 
 /* Navbar (general) */
 nav {
+  background-color: red;
   display: flex;
   justify-content: space-between;
   padding: 0 45%;
-  border-bottom: 1px solid var(--very-light-pink);
+  border-bottom: 1px solid var(--black);
 }
 .menu {
   display: none;

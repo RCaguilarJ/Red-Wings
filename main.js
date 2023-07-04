@@ -104,151 +104,33 @@ function toggleMenus() {
 const productList = [];
 
 productList.push({
-  name: "Aros de cebolla",
-  price: 56,
-  image: "logos/aros.jpeg",
-  description: "Crujientes aros de cebolla",
+  name: "Lunes de promoción!",
+  price: 230,
+  image: "logos/promoLunes(1).jpg",
+  description:
+    "14 piezas con dos salsas, orden de patatas, odern de salchipulpos y orden de popis!",
 });
 
-// productList.push({
-//   name: "Dedos de queso ",
-//   price: 56,
-//   image: "logos/dedos.jpeg",
-//   description: "Crujientes dedos de queso",
-// });
-
-productList.push({
-  name: "Papas a la francesa",
-  price: 56,
-  image: "logos/papas.jpeg",
-  description: "Crujientes papasa la francesa",
-});
 productList.push({
   name: "Alitas",
-  price: 110,
-  image: "logos/alitas.jpeg",
+  price: 95,
+  image: "logos/alitas(1).jpg",
   description:
-    "Sabores Mango habanero, búfalo, lemon pepper, dinamita, bbq, chipotle, parmesano, y cajún",
+    "delciosas piezas de alitas sabores búfalo, mango habanero, bbq y lemon pepper ",
+});
+productList.push({
+  name: "Boneless",
+  price: 95,
+  image: "logos/boneless(1).jpg",
+  description:
+    "delciosas piezas de alitas sabores búfalo, mango habanero, bbq y lemon pepper ",
 });
 
 productList.push({
-  name: "Baggle Mar y Tierra",
-  price: 120,
-  image: "logos/bagleMuestra.jpeg",
-  description:
-    "Pan denso y crujiente con unacubierta de queso gratinado carne arrachera y camarones, por dentro pulpa de aguacate, queso momozarella y queso crema",
-});
-
-productList.push({
-  name: "Hamburguesa Ranchera",
-  price: 130,
-  image: "logos/ranchera.jpeg",
-  description:
-    "Jugosa carne de arrachera, chorizo, tocino, queso gouda, guacamole, cebolla caramelizada y jalapecho",
-});
-productList.push({
-  name: "Hamburguesa Doble Carne",
-  price: 159,
-  image: "logos/hamDoblecarne.jpeg",
-  description:
-    "Doble carne molida de res, queso americano doble, tocino, jitomate, cebolla, lechua, pepinillos y jalapeños ",
-});
-productList.push({
-  name: "Ensalada de camarón ",
-  price: 135,
-  image: "logos/ensaladaCAM.jpeg",
-  description:
-    "Mix de lechuga, camarones salteados, aguacate, cherrys, pepino, zanahoria, frituras de maíz y aderezo ",
-});
-productList.push({
-  name: "Ensalada Pollo Crujiente ",
-  price: 115,
-  image: "logos/ensalada.jpeg",
-  description:
-    "Mix de lechugas, crujiente pechuga de polo con salsa búfalo, tocino, zanahoriarallada, cherrys, pepino y aderezo",
-});
-productList.push({
-  name: "Lasaña",
-  price: 139,
-  image: "logos/lasaña.jpeg",
-  description:
-    "Deliciosas laminas de pasta horneada, intercaladas con carne de res, salsa boloñesa, crema bechamel y queso gratinado ",
-});
-
-productList.push({
-  name: "Piña Mar",
-  price: 189,
-  image: "logos/piñaMar.jpeg",
-  description:
-    "Piña asadare llena de pulpa, camarones y surimi, queso gratinado, salsa diabla, acompañado de arroz y ensalada  ",
-});
-
-productList.push({
-  name: "Corte T-bone",
-  price: 187,
-  image: "logos/cortes-para-asar-t-bone.jpg",
-  description: "Corte T-BONE de 250gr  al termino de su elección ",
-});
-productList.push({
-  name: "Corte New York",
-  price: 187,
-  image: "logos/NewYork.jpeg",
-  description: "Corte New York  de 250gr  al termino de su elección ",
-});
-productList.push({
-  name: "Corte Rib Eye",
-  price: 187,
-  image: "logos/corteRibEye.jpeg",
-  description: "Corte Rib Eye  de 250gr  al termino de su elección ",
-});
-
-productList.push({
-  name: "Corte Arrachera",
-  price: 195,
-  image: "logos/arrachera.jpeg",
-  description: "Corte arrachera de 250gr  al termino de su elección ",
-});
-productList.push({
-  name: "?",
-  price: 195,
-  image: "logos/crokemadam.jpeg",
-  description: "?",
-});
-productList.push({
-  name: "??",
-  price: 195,
-  image: "logos/huevos.jpeg",
-  description: "??",
-});
-productList.push({
-  name: "???",
-  price: 195,
-  image: "logos/sabe1.jpeg",
-  description: "???",
-});
-productList.push({
-  name: "????",
-  price: 195,
-  image: "logos/sabe2.jpeg",
-  description: "????",
-});
-productList.push({
-  name: "?????",
-  price: 195,
-  image: "logos/sabe3.jpeg",
-  description: "?????",
-});
-productList.push({
-  name: "?????",
-  price: 195,
-  image: "logos/sabe4.jpeg",
-  description: "?????",
-});
-productList.push({
-  name: "?????",
-  price: 195,
-  image: "logos/sabe5.jpeg",
-  description: "?????",
+  name: "Papas fritas",
+  price: 30,
+  image: "logos/papas.jpg",
+  description: "delciosas papas fritas en aceite aderezadas con sal  ",
 });
 
 const openProductInfo = (product) => {
