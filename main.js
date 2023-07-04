@@ -104,7 +104,7 @@ function toggleMenus() {
 const productList = [];
 
 productList.push({
-  name: "Lunes de promoción!",
+  name: " ¡MEGA COMBO!",
   price: 230,
   image: "logos/promoLunes(1).jpg",
   description:
@@ -135,9 +135,15 @@ productList.push({
 
 productList.push({
   name: "COMBO FAMILIAR!",
-  price: 30,
+  price: 490,
   image: "logos/comboFamiliar(1).jpg",
   description: "delciosas papas fritas en aceite aderezadas con sal  ",
+});
+productList.push({
+  name: "PROMO LUNES!",
+  price: 170,
+  image: "logos/LunesDePromo(1).jpg",
+  description: "Dos ordenes de boneleess + 1 coca de 1.25ml",
 });
 
 const openProductInfo = (product) => {

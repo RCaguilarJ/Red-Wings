@@ -23,7 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 45%;
-  border-bottom: 1px solid var(--);
+  border-bottom: 1px solid var(--black);
 }
 .menu {
   display: none;
