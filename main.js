@@ -137,13 +137,26 @@ productList.push({
   name: "COMBO FAMILIAR!",
   price: 490,
   image: "logos/comboFamiliar(1).jpg",
-  description: "delciosas papas fritas en aceite aderezadas con sal  ",
+  description:
+    "-12 piezas de litas -12 piezas de boneless -1 orden de aros de cebolla  -1 orden de dedos de queso  -1 orden de jalapeños poppers -1 orden de papas a la fancesa",
 });
 productList.push({
   name: "PROMO LUNES!",
   price: 170,
   image: "logos/LunesDePromo(1).jpg",
   description: "Dos ordenes de boneleess + 1 coca de 1.25ml",
+});
+productList.push({
+  name: "PATATAS",
+  price: 30,
+  image: "logos/patatas(1).jpg",
+  description: "Crujiente y deliciosa orden de patatas",
+});
+productList.push({
+  name: "PAQUETE INDIVIDUAL!",
+  price: 30,
+  image: "logos/paqueteIndividual(1).jpg",
+  description: "Alitas o boneless + papas a la francesa",
 });
 
 const openProductInfo = (product) => {
