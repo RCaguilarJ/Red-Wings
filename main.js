@@ -154,9 +154,16 @@ productList.push({
 });
 productList.push({
   name: "PAQUETE INDIVIDUAL!",
-  price: 30,
+  price: 55,
   image: "logos/paqueteIndividual(1).jpg",
   description: "Alitas o boneless + papas a la francesa",
+});
+
+productList.push({
+  name: "Jalapeños rellenos",
+  price: 30,
+  image: "logos/chilesConQueso(1)(1).jpg",
+  description: "Ricos y frescos chiles jalapeños empanizados rellenos de queso",
 });
 
 const openProductInfo = (product) => {
