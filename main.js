@@ -123,13 +123,20 @@ productList.push({
   price: 95,
   image: "logos/boneless(1).jpg",
   description:
-    "delciosas piezas de alitas sabores búfalo, mango habanero, bbq y lemon pepper ",
+    "delciosas piezas de boneless sabores búfalo, mango habanero, bbq y lemon pepper ",
 });
 
 productList.push({
   name: "Papas fritas",
   price: 30,
-  image: "logos/papas.jpg",
+  image: "logos/papas2(1).jpg",
+  description: "delciosas papas fritas en aceite aderezadas con sal  ",
+});
+
+productList.push({
+  name: "COMBO FAMILIAR!",
+  price: 30,
+  image: "logos/comboFamiliar(1).jpg",
   description: "delciosas papas fritas en aceite aderezadas con sal  ",
 });
 
