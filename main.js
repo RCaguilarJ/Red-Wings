@@ -120,7 +120,7 @@ productList.push({
 });
 productList.push({
   name: "Boneless",
-  price: 95,
+  price: 85,
   image: "logos/boneless(1).jpg",
   description:
     "delciosas piezas de boneless sabores búfalo, mango habanero, bbq y lemon pepper ",
@@ -154,7 +154,7 @@ productList.push({
 });
 productList.push({
   name: "PAQUETE INDIVIDUAL!",
-  price: 55,
+  price: 95,
   image: "logos/paqueteIndividual(1).jpg",
   description: "Alitas o boneless + papas a la francesa",
 });
