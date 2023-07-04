@@ -166,6 +166,32 @@ productList.push({
   description: "Ricos y frescos chiles jalapeños empanizados rellenos de queso",
 });
 
+productList.push({
+  name: "Salchipulpos",
+  price: 30,
+  image: "logos/salchipulpos(1).jpg",
+  description: "Salchicha en corte tipo 'pulpo' frita ",
+});
+
+productList.push({
+  name: "aros de cebolla",
+  price: 30,
+  image: "logos/aros(1).jpg",
+  description: "Crujientes aros de cebolla",
+});
+productList.push({
+  name: "Popis",
+  price: 30,
+  image: "logos/popis(1).jpg",
+  description: "salchicha cubiera con tortilla freida en aceite",
+});
+// productList.push({
+//   name: "¡CONTÁCTANOS!",
+//   price: 3751084339,
+//   image: "logos/info(1).jpg",
+//   description: "servicio de viernes a domingo de 7 a 11 pm ",
+// });
+
 const openProductInfo = (product) => {
   //muestra el aside con la info del producto seleccionado
   const aside = document.querySelector(".product-detail-main");
